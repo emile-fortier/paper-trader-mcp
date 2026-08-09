@@ -119,3 +119,9 @@ PYTHONPATH=src python3 -m unittest discover -s tests -v
 ```
 
 No test uses credentials or network access.
+
+## License
+
+Copyright 2026 Emile Fortier.
+
+Licensed under the [Apache License 2.0](LICENSE).

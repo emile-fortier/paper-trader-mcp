@@ -6,6 +6,8 @@ build-backend = "hatchling.build"
 name = "paper-trader-mcp"
 version = "0.1.0"
 description = "Safety-first local US-equity paper-trading MCP server"
+license = "Apache-2.0"
+license-files = ["LICENSE"]
 requires-python = ">=3.14"
 dependencies = ["mcp==2.0.0"]
 
