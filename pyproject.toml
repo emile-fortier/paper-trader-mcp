@@ -1,0 +1,16 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "paper-trader-mcp"
+version = "0.1.0"
+description = "Safety-first local US-equity paper-trading MCP server"
+requires-python = ">=3.14"
+dependencies = ["mcp==2.0.0"]
+
+[project.scripts]
+paper-trader-mcp = "paper_trader.server:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/paper_trader"]
